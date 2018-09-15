@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.lis {
+  
+   border:1px solid red;
+   margin-left: 10px;
+   margin-top: 30px;
+  border-image: linear-gradient(to left, #743ad5 0%, #d53a9d 100%);
+        border-image-slice: 1;
+        border-width: 5px;
+}
+ul li { 
+    /* make list elements fall inline as block elements */
+    position: relative;
+    display: inline-block;
+    /* next two lines only for display purposes */
+    text-align: center;
+ background-color:#b3ecff;
+    
+}
+/* horizontally center ul element */
+ul { text-align:center; 
+  font-size: 30pt;
+  
+}
+
+body{
+  
+  
+  
+  
+ 
+ background-color:#58D4BF;
+	background-image: radial-gradient(#fff 10%, transparent 10%),
+	radial-gradient(#fff 10%, transparent 10%);
+	background-size: 30px 30px;
+	background-position: 0 0, 15px 15px;
+}
+.v {
+    display: block;
+
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 3px solid #b3ecff; /* Green */
+    font-size:  20px;
+}
